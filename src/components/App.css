@@ -1,0 +1,86 @@
+/* Styles go here */
+.app{
+    background-color: #131f27;
+}
+
+.newnweetinput{
+    margin-top: 40px;
+    padding: 30px;
+    border: solid 0.1px grey;
+    border-radius: 12px;
+}
+
+.newnweettitle{
+    color: aliceblue;
+}
+
+.form-control{
+    height: 100px;
+    background-color: #131f27;
+    color: white;
+    border: solid 0.1px grey;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; 
+}
+
+.form-control:focus{
+    background-color: #131f27;
+    color: white;
+}
+
+.wrapper{
+    display:flex;
+}
+
+.file-upload{
+  
+    height:50px;
+    width:60px;
+    border-radius: 100px;
+    position:relative;
+    
+    display:flex;
+    justify-content:center;
+    align-items: center;  
+
+    border:1px solid #FFFFFF;
+    overflow:hidden;
+    background-image: linear-gradient(to bottom,#FFFFFF 50%);
+    background-size: 100% 200%;
+    /* transition: all 1s; */
+    color: #FFFFFF;
+    font-size:100px;
+    margin-right: 20px;
+    
+}
+
+  input[type='file']{
+    height:40px;
+    width:40px;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    cursor:pointer;
+    color: #FFFFFF;
+  }
+
+  .texts{
+      color: #a0b5ff;
+  }
+
+  .file-upload:hover{
+    border-color: #a0b5ff;
+    cursor: pointer;
+  }
+
+.bgtweet{
+    color: white;
+    background-color: #131f27;
+}
